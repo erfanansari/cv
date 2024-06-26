@@ -34,7 +34,6 @@ export const RESUME_DATA = {
   summary:
     "I'm a Frontend Engineer who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces while being clean and efficient behind the scenes. I enjoy constantly learning and improving my skills with the many technologies that power the web.",
   avatarUrl: "https://avatars.githubusercontent.com/u/64015416?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "dev.erfanansari@gmail.com",
     tel: null, // "+48530213401"
