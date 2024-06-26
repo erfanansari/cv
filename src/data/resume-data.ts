@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       company: "PRAGMIDEA LTD",
       href: null, // "http://pragmidea.com"
       badges: ["Remote", "Full-time"],
-      title: "Front-end Developer",
+      title: "Frontend Developer",
       start: "Nov 2022",
       end: "Present",
       description:
