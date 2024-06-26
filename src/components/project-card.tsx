@@ -11,30 +11,29 @@ interface Props {
   title: string;
   description: string;
   tags: readonly string[];
-  link?: string;
+  href: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, href }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
         <div className="space-y-1">
           <CardTitle className="text-base">
-            {link ? (
+            {href ? (
               <a
-                href={link}
+                href={href}
                 target="_blank"
                 className="inline-flex items-center gap-1 hover:underline"
               >
-                {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
+                {title} <span className="size-1 rounded-full bg-green-500" />
               </a>
             ) : (
               title
             )}
           </CardTitle>
           <div className="hidden font-mono text-xs underline print:visible">
-            {link?.replace("https://", "").replace("www.", "").replace("/", "")}
+            {href}
           </div>
           <CardDescription className="font-mono text-xs print:text-[10px]">
             {description}
