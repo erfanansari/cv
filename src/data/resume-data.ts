@@ -53,10 +53,10 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Shahrekord",
+      degree: "Bachelor of Science in Computer Engineering",
+      start: "2020",
+      end: "Present",
     },
   ],
   work: [
