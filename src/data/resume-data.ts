@@ -39,22 +39,22 @@ export const RESUME_DATA = {
     tel: null, // "+48530213401"
     social: [
       {
-        name: "GitHub",
+        title: "GitHub",
         url: "https://github.com/erfanansari",
         icon: GitHubIcon,
       },
       {
-        name: "LinkedIn",
+        title: "LinkedIn",
         url: "https://linkedin.com/in/erfanansari",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
+        title: "X",
         url: "https://x.com/erfanexp",
         icon: XIcon,
       },
       {
-        name: "Linktree",
+        title: "Linktree",
         url: "https://linktr.ee/erfanansari",
         icon: LinktreeIcon,
       },

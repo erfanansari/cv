@@ -197,12 +197,14 @@ export default function Page() {
       </section>
 
       <CommandMenu
-        links={[
-          ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
-            url: socialMediaLink.url,
-            title: socialMediaLink.name,
-          })),
-        ]}
+        links={RESUME_DATA.contact.social.map((socialMediaLink) => ({
+          url: socialMediaLink.url,
+          title: socialMediaLink.title,
+        }))}
+        projects={RESUME_DATA.projects.map((project) => ({
+          title: project.title,
+          href: project.href,
+        }))}
       />
     </main>
   );
