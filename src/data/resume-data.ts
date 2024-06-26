@@ -17,7 +17,12 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import {
+  GitHubIcon,
+  LinkedInIcon,
+  XIcon,
+  LinktreeIcon,
+} from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Erfan Ansari",
@@ -48,6 +53,11 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://x.com/erfanexp",
         icon: XIcon,
+      },
+      {
+        name: "Linktree",
+        url: "https://linktr.ee/erfanansari",
+        icon: LinktreeIcon,
       },
     ],
   },
