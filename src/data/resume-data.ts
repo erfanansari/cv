@@ -21,7 +21,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Erfan Ansari",
-  initials: "BJ",
+  initials: "EA",
   location: null, // "Iran"
   locationLink: null, // "https://www.google.com/maps/place/Iran",
   about:
