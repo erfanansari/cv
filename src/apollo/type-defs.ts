@@ -42,7 +42,7 @@ export class Work {
   company: string;
 
   @Field(() => String)
-  link: string;
+  href: string;
 
   @Field(() => [String])
   badges: string[];
@@ -59,16 +59,6 @@ export class Work {
   @Field(() => String)
   description: string;
 }
-
-@ObjectType()
-export class Link {
-  @Field(() => String)
-  label: string;
-
-  @Field(() => String)
-  href: string;
-}
-
 @ObjectType()
 export class Project {
   @Field(() => String)
@@ -80,8 +70,8 @@ export class Project {
   @Field(() => String)
   description: string;
 
-  @Field(() => Link, { nullable: true })
-  link?: Link;
+  @Field(() => String)
+  href?: string;
 }
 
 @ObjectType()
@@ -106,9 +96,6 @@ export class Me {
 
   @Field(() => String)
   avatarUrl: string;
-
-  @Field(() => String)
-  personalWebsiteUrl: string;
 
   @Field(() => Contact)
   contact: Contact;
