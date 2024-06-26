@@ -63,7 +63,7 @@ export default function Page() {
               ) : null}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
-                  key={social.name}
+                  key={social.title}
                   className="size-8"
                   variant="outline"
                   size="icon"
