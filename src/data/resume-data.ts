@@ -132,6 +132,8 @@ export const RESUME_DATA = {
     "Git",
     "Docker",
     "Bash",
+    "CI/CD",
+    "Agile Methodologies",
   ],
   // projects: [
   //   {
