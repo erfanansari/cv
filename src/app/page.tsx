@@ -136,9 +136,16 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs print:text-[10px]">
-                  {work.description}
-                </CardContent>
+                <ul>
+                  {work.description.map((desc) => (
+                    <li
+                      className="mt-2 list-inside list-disc font-mono text-xs text-muted-foreground print:text-[10px]"
+                      key={desc}
+                    >
+                      {desc}
+                    </li>
+                  ))}
+                </ul>
               </Card>
             );
           })}

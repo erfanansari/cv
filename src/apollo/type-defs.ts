@@ -57,7 +57,7 @@ export class Work {
   end: string;
 
   @Field(() => String)
-  description: string;
+  description: string[];
 }
 @ObjectType()
 export class Project {

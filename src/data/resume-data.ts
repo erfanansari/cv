@@ -76,8 +76,16 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       start: "Nov 2022",
       end: "Present",
-      description:
-        "Worked as a Front-end Developer on various projects. Technologies: React, TypeScript, GraphQL",
+      description: [
+        "Migrating two large-scale projects from SWR to React Query, resulting in improved performance and a more seamless user experience.",
+        "Upgrading four static WordPress websites to Directus and Strapi CMS and NextJS, providing a more flexible and scalable solution for content management.",
+        "Implementing end-to-end testing, ensuring a higher level of quality control and stability.",
+        "Enhancing the user interface through the implementation of animations on the Adrian Kreter website, improving the overall user experience.",
+        "Developing comprehensive documentation and training materials, ensuring the sustainability and maintainability of the projects.",
+        "Led one/two of the projects and fixed incoming texts, reported to tech lead and marketing team",
+        "Led a team of 3 members of developers to convert 6 crypto wordpress landings website to Nextjs and Directs Headless CMS",
+        "Migrated five medium projects form pages dir to app dir",
+      ],
     },
     {
       company: "Squad Global",
@@ -86,8 +94,13 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       start: "Aug 2021",
       end: "Nov 2022",
-      description:
-        "At Squad, I worked on the community os team, which is a platform that helps communities grow by analyzing their users’ data and helping small and medium businesses know their customers and provide better services to them. Technologies: React, TypeScript, GraphQL, Node.js, Docker",
+      description: [
+        "Established a proactive approach to preventing API-breaking change defects on the Front-end through the automation of type generation from OpenAPI documentation.",
+        "Established a fully-containerized development and production environment utilizing Docker technology.",
+        "Implemented a robust Git-based development workflow, incorporating best practices such as commit linting and adherence to GitHub flow.",
+        "Expanded payment options by integrating the PayPal payment method into the application.",
+        "Improved user experience by implementing lazy loading strategies, resulting in a 45% reduction in Largest Contentful Paint (LCP) time.",
+      ],
     },
     {
       company: "Avid Arvand",
@@ -96,8 +109,12 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       start: "Jun 2019",
       end: "Jun 2021",
-      description:
-        "At Avid Arvand, I worked on the eduction website web application.",
+      description: [
+        "Acquired a comprehensive understanding of React and Next framework, contributing to the overall development process.",
+        "Streamlined remote data handling by migrating from Redux/Saga to React Query, resulting in improved performance and efficiency.",
+        "Established robust security measures for Authentication and Authorization through the implementation of HTTP-only cookies, and effectively mitigated potential XSS and CSRF attacks.",
+        "Enhanced data visualization capabilities through the implementation of various chart variants, providing a comprehensive representation of data insights.",
+      ],
     },
   ],
   skills: [
