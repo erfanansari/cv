@@ -109,6 +109,6 @@ export class Me {
   @Field(() => [String])
   skills: string[];
 
-  @Field(() => [Project])
-  projects: Project[];
+  // @Field(() => [Project])
+  // projects: Project[];
 }

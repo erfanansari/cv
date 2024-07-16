@@ -16,13 +16,9 @@ import { CommandIcon } from "lucide-react";
 
 interface Props {
   links: { url: string; title: string }[];
-  projects: {
-    title: string;
-    href: string;
-  }[];
 }
 
-export const CommandMenu = ({ links, projects }: Props) => {
+export const CommandMenu = ({ links }: Props) => {
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(() => {
@@ -75,19 +71,6 @@ export const CommandMenu = ({ links, projects }: Props) => {
                 onSelect={() => {
                   setOpen(false);
                   window.open(url, "_blank");
-                }}
-              >
-                <span>{title}</span>
-              </CommandItem>
-            ))}
-          </CommandGroup>
-          <CommandGroup heading="Projects">
-            {projects.map(({ title, href }) => (
-              <CommandItem
-                key={href}
-                onSelect={() => {
-                  setOpen(false);
-                  window.open(href, "_blank");
                 }}
               >
                 <span>{title}</span>

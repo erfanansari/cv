@@ -133,18 +133,18 @@ export const RESUME_DATA = {
     "Docker",
     "Bash",
   ],
-  projects: [
-    {
-      title: "CLI Portfolio",
-      techStack: ["TypeScript", "React", "Vite", "Tailwind CSS"],
-      description: "My personal portfolio as a CLI tool",
-      href: "https://cli.erfanansari.com",
-    },
-    {
-      title: "Personal Blog",
-      techStack: ["Gatsby", "React", "MD"],
-      description: "My personal blog where I write about tech",
-      href: "https://blog.erfanansari.com",
-    },
-  ],
+  // projects: [
+  //   {
+  //     title: "CLI Portfolio",
+  //     techStack: ["TypeScript", "React", "Vite", "Tailwind CSS"],
+  //     description: "My personal portfolio as a CLI tool",
+  //     href: "https://cli.erfanansari.com",
+  //   },
+  //   {
+  //     title: "Personal Blog",
+  //     techStack: ["Gatsby", "React", "MD"],
+  //     description: "My personal blog where I write about tech",
+  //     href: "https://blog.erfanansari.com",
+  //   },
+  // ],
 } as const;
