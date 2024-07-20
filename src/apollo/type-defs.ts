@@ -75,6 +75,15 @@ export class Project {
 }
 
 @ObjectType()
+export class Honor {
+  @Field(() => String)
+  title: string;
+
+  @Field(() => String)
+  description: string;
+}
+
+@ObjectType()
 export class Me {
   @Field(() => String)
   name: string;
@@ -111,4 +120,7 @@ export class Me {
 
   // @Field(() => [Project])
   // projects: Project[];
+
+  @Field(() => [String])
+  honors: Honor[];
 }
