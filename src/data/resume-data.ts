@@ -70,7 +70,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "PRAGMIDEA LTD",
+      company: "Pragmateam",
       href: null, // "http://pragmidea.com"
       badges: ["Remote", "Full-time"],
       title: "Frontend Developer",
@@ -88,7 +88,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      company: "Squad Global",
+      company: "Squad",
       href: null,
       badges: ["Remote", "Full-time"],
       title: "Frontend Developer",
