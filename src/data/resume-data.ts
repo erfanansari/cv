@@ -102,20 +102,6 @@ export const RESUME_DATA = {
         "Improved user experience by implementing lazy loading strategies, resulting in a 45% reduction in Largest Contentful Paint (LCP) time.",
       ],
     },
-    {
-      company: "Avid Arvand",
-      href: null,
-      badges: ["Remote", "Full-time"],
-      title: "Frontend Developer",
-      start: "Jun 2019",
-      end: "Jun 2021",
-      description: [
-        "Acquired a comprehensive understanding of React and Next framework, contributing to the overall development process.",
-        "Streamlined remote data handling by migrating from Redux/Saga to React Query, resulting in improved performance and efficiency.",
-        "Established robust security measures for Authentication and Authorization through the implementation of HTTP-only cookies, and effectively mitigated potential XSS and CSRF attacks.",
-        "Enhanced data visualization capabilities through the implementation of various chart variants, providing a comprehensive representation of data insights.",
-      ],
-    },
   ],
   honors: [
     {
