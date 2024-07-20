@@ -173,6 +173,23 @@ export default function Page() {
           })}
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">Honors and Awards</h2>
+          {RESUME_DATA.honors.map((honor) => {
+            return (
+              <Card key={honor.title}>
+                <CardHeader>
+                  <h3 className="text-base font-semibold leading-none">
+                    {honor.title}
+                  </h3>
+                </CardHeader>
+                <CardContent className="mt-2 print:text-[12px]">
+                  {honor.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {

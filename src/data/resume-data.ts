@@ -117,6 +117,13 @@ export const RESUME_DATA = {
       ],
     },
   ],
+  honors: [
+    {
+      title: "National Skills Competition",
+      description:
+        "I was awarded a Medallion of Excellence in Web Technologies at the National Skills Competition.",
+    },
+  ],
   skills: [
     "TypeScript",
     "JavaScript",
