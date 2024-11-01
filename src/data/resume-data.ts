@@ -61,11 +61,17 @@ export const RESUME_DATA = {
     ],
   },
   education: [
+    // {
+    //   school: "Shahid Beheshti University",
+    //   degree: "Master's degree, Computer Software Engineering",
+    //   start: "2026",
+    //   end: "2028",
+    // },
     {
       school: "University of Shahrekord",
-      degree: "Bachelor of Science in Computer Engineering",
+      degree: "Bachelor's degree, Computer Software Engineering",
       start: "2020",
-      end: "Present",
+      end: "2025",
     },
   ],
   work: [
