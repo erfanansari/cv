@@ -119,6 +119,8 @@ export const RESUME_DATA = {
   honors: [
     {
       title: "WorldSkills Competition",
+      href: "https://skill.irantvto.ir/uploads/91/2023/Mar/07/%D9%88%D8%A8%20%D8%A8%D8%AF%D9%88%D9%86%20%D9%86%D9%85%D8%B1%D9%87.pdf",
+      // https://skill.irantvto.ir/20result
       description:
         "Awarded Medallion of Excellence in the Web Technologies field",
     },

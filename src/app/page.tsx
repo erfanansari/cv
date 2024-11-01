@@ -180,8 +180,10 @@ export default function Page() {
             return (
               <Card key={honor.title}>
                 <CardHeader>
-                  <h3 className="text-base font-semibold leading-none">
-                    {honor.title}
+                  <h3 className="text-base font-semibold leading-none hover:underline">
+                    <a href={honor.href} target="_blank" rel="noreferrer">
+                      {honor.title}
+                    </a>
                   </h3>
                 </CardHeader>
                 <CardContent className="mt-2 print:text-[12px]">
