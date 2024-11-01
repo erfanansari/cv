@@ -154,11 +154,13 @@ export default function Page() {
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
-              <Card key={education.school}>
+              <Card key={education.institution}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
-                      {education.school}
+                    <h3 className="font-semibold leading-none hover:underline">
+                      <a href={education.href} target="_blank" rel="noreferrer">
+                        {education.institution}
+                      </a>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {education.start} - {education.end}

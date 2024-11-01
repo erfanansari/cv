@@ -24,7 +24,10 @@ export class Contact {
 @ObjectType()
 export class Education {
   @Field(() => String)
-  school: string;
+  institution: string;
+
+  @Field(() => String)
+  href: string;
 
   @Field(() => String)
   degree: string;

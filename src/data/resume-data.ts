@@ -62,13 +62,15 @@ export const RESUME_DATA = {
   },
   education: [
     // {
-    //   school: "Shahid Beheshti University",
+    //   institution: "Shahid Beheshti University",
+    //   href: "https://sbu.ac.ir/",
     //   degree: "Master's degree, Computer Software Engineering",
     //   start: "2026",
     //   end: "2028",
     // },
     {
-      school: "University of Shahrekord",
+      institution: "University of Shahrekord",
+      href: "https://sku.ac.ir/",
       degree: "Bachelor's degree, Computer Software Engineering",
       start: "2020",
       end: "2025",
