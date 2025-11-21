@@ -11,9 +11,9 @@ export const RESUME_DATA = {
   location: null, // "Iran"
   locationLink: null, // "https://www.google.com/maps/place/Iran",
   about:
-    "Problem-solving Frontend Engineer with a passion for crafting elegant solutions.",
+    "Problem-solving Software Engineer with a passion for crafting elegant solutions.",
   summary:
-    "I'm a Frontend Engineer who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces while being clean and efficient behind the scenes. I enjoy constantly learning and improving my skills with the many technologies that power the web.",
+    "I'm a Software Engineer who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces while being clean and efficient behind the scenes. I enjoy constantly learning and improving my skills with the many technologies that power the web.",
   avatarUrl: "https://avatars.githubusercontent.com/u/64015416?v=4",
   contact: {
     email: "dev.erfanansari@gmail.com",
