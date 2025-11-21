@@ -105,7 +105,7 @@ export const RESUME_DATA = {
       href: null,
       badges: ["Remote", "Full-time"],
       title: "Frontend Developer",
-      start: "Aug 2021",
+      start: "Dec 2021",
       end: "Nov 2022",
       description: [
         "Established a proactive approach to preventing API-breaking change defects on the Front-end through the automation of type generation from OpenAPI documentation.",
