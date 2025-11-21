@@ -65,7 +65,7 @@ export const RESUME_DATA = {
       badges: ["Remote", "Full-time"],
       title: "Frontend Developer",
       start: "Nov 2022",
-      end: "Present",
+      end: null,
       description: [
         "Migrated two large-scale projects from SWR to React Query, resulting in improved performance and a more seamless user experience.",
         "Implemented end-to-end testing, ensuring a higher level of quality control and stability.",
@@ -140,4 +140,4 @@ export const RESUME_DATA = {
   //     href: "https://blog.erfanansari.com",
   //   },
   // ],
-} as const;
+};

@@ -44,8 +44,8 @@ export class Work {
   @Field(() => String)
   company: string;
 
-  @Field(() => String)
-  href: string;
+  @Field(() => String, { nullable: true })
+  href?: string | null;
 
   @Field(() => String, { nullable: true })
   location?: string;
@@ -59,10 +59,10 @@ export class Work {
   @Field(() => String)
   start: string;
 
-  @Field(() => String)
-  end: string;
+  @Field(() => String, { nullable: true })
+  end?: string | null;
 
-  @Field(() => String)
+  @Field(() => [String])
   description: string[];
 }
 @ObjectType()
