@@ -11,9 +11,9 @@ export const RESUME_DATA = {
   location: null, // "Tehran, Iran",
   locationLink: null, // "https://www.google.com/maps/place/Tehran",
   about:
-    "Problem-solving Software Engineer with a passion for crafting elegant solutions.",
+    "Problem-solving Frontend Engineer with a passion for crafting elegant solutions.",
   summary:
-    "I'm a Software Engineer who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces while being clean and efficient behind the scenes. I enjoy constantly learning and improving my skills with the many technologies that power the web.",
+    "Frontend-focused Full Stack Engineer with 4+ years of expertise in building performant and scalable web applications using React and TypeScript. Specializing in performance optimization, testing, and CI/CD. Experienced in migrating large-scale projects, technical architecture design, and remote team leadership.",
   avatarUrl: "https://avatars.githubusercontent.com/u/64015416?v=4",
   contact: {
     email: "dev.erfanansari@gmail.com",
