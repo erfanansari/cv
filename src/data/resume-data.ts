@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       href: "https://sku.ac.ir/",
       degree: "Bachelor's degree, Computer Software Engineering",
       start: "2020",
-      end: "2025",
+      end: "2024",
     },
   ],
   work: [
