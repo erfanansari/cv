@@ -47,6 +47,9 @@ export class Work {
   @Field(() => String)
   href: string;
 
+  @Field(() => String, { nullable: true })
+  location?: string;
+
   @Field(() => [String])
   badges: string[];
 

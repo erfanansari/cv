@@ -135,6 +135,11 @@ export default function Page() {
                   <h4 className="font-mono text-sm leading-none print:text-[12px]">
                     {work.title}
                   </h4>
+                  {work.location && (
+                    <p className="mt-1 font-mono text-xs text-muted-foreground print:text-[10px]">
+                      {work.location}
+                    </p>
+                  )}
                 </CardHeader>
                 <ul>
                   {work.description.map((desc) => (

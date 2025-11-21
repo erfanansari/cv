@@ -8,8 +8,8 @@ import {
 export const RESUME_DATA = {
   name: "Erfan Ansari",
   initials: "EA",
-  location: null, // "Iran"
-  locationLink: null, // "https://www.google.com/maps/place/Iran",
+  location: null, // "Tehran, Iran",
+  locationLink: null, // "https://www.google.com/maps/place/Tehran",
   about:
     "Problem-solving Software Engineer with a passion for crafting elegant solutions.",
   summary:
@@ -60,7 +60,8 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Pragmateam",
-      href: null, // "http://pragmidea.com"
+      href: "https://www.linkedin.com/company/pragmidea-ltd/",
+      location: "London, United Kingdom",
       badges: ["Remote", "Full-time"],
       title: "Frontend Developer",
       start: "Nov 2022",
@@ -83,7 +84,8 @@ export const RESUME_DATA = {
     },
     {
       company: "Squad",
-      href: null,
+      href: "https://www.linkedin.com/company/squadglobal/",
+      location: "London, United Kingdom",
       badges: ["Remote", "Full-time"],
       title: "Frontend Developer",
       start: "Dec 2021",
