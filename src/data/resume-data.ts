@@ -61,8 +61,8 @@ export const RESUME_DATA = {
     {
       company: "Pragmateam",
       href: "https://www.linkedin.com/company/pragmidea-ltd/",
-      location: "London, United Kingdom",
-      badges: ["Remote", "Full-time"],
+      location: null,
+      badges: ["Remote", "Full-time", "Fintech"],
       title: "Frontend Developer",
       start: "Nov 2022",
       end: null,
@@ -89,8 +89,8 @@ export const RESUME_DATA = {
     {
       company: "Squad",
       href: "https://www.linkedin.com/company/squadglobal/",
-      location: "London, United Kingdom",
-      badges: ["Remote", "Full-time"],
+      location: null,
+      badges: ["Remote", "Full-time", "Web3", "Blockchain"],
       title: "Frontend Developer",
       start: "Dec 2021",
       end: "Nov 2022",
