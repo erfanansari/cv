@@ -21,11 +21,11 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+            <p className="max-w-md text-pretty font-mono text-sm text-foreground/80 print:text-[12px]">
               {RESUME_DATA.about}
             </p>
             {RESUME_DATA.location && RESUME_DATA.locationLink && (
-              <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+              <p className="max-w-md items-center text-pretty font-mono text-xs text-foreground/80">
                 <a
                   className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                   href={RESUME_DATA.locationLink}
@@ -36,7 +36,7 @@ export default function Page() {
                 </a>
               </p>
             )}
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+            <div className="flex gap-x-1 pt-1 font-mono text-sm text-foreground/80 print:hidden">
               {RESUME_DATA.contact.email ? (
                 <Button
                   className="size-8"
@@ -75,7 +75,7 @@ export default function Page() {
                 </Button>
               ))}
             </div>
-            <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
+            <div className="hidden flex-col gap-x-1 font-mono text-sm text-foreground/80 print:flex print:text-[12px]">
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
                   <span className="underline">{RESUME_DATA.contact.email}</span>
@@ -96,7 +96,7 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+          <p className="text-pretty font-mono text-sm text-foreground/80 print:text-[12px]">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -132,14 +132,14 @@ export default function Page() {
                     </div>
                   </div>
 
-                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
+                  <h4 className="font-mono text-sm font-semibold leading-none print:text-[12px]">
                     {work.title}
                   </h4>
                 </CardHeader>
                 <ul>
                   {work.description.map((desc) => (
                     <li
-                      className="mt-2 list-inside list-disc font-mono text-xs text-muted-foreground print:text-[10px]"
+                      className="mt-2 list-inside list-disc font-mono text-xs text-foreground/80 print:text-[10px]"
                       key={desc}
                     >
                       {desc}
@@ -167,7 +167,7 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2 print:text-[12px]">
+                <CardContent className="mt-2 text-foreground/80 print:text-[12px]">
                   {education.degree}
                 </CardContent>
               </Card>
@@ -186,7 +186,7 @@ export default function Page() {
                     </a>
                   </h3>
                 </CardHeader>
-                <CardContent className="mt-2 print:text-[12px]">
+                <CardContent className="mt-2 text-foreground/80 print:text-[12px]">
                   {honor.description}
                 </CardContent>
               </Card>
