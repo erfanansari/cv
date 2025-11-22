@@ -1,9 +1,4 @@
-import {
-  GitHubIcon,
-  LinkedInIcon,
-  XIcon,
-  LinktreeIcon,
-} from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Erfan Ansari",
@@ -17,7 +12,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/64015416?v=4",
   contact: {
     email: "dev.erfanansari@gmail.com",
-    tel: null, // "+48530213401"
+    tel: "+989120479913",
     social: [
       {
         title: "GitHub",
@@ -29,16 +24,16 @@ export const RESUME_DATA = {
         url: "https://linkedin.com/in/erfanansari",
         icon: LinkedInIcon,
       },
-      {
-        title: "X",
-        url: "https://x.com/erfanexp",
-        icon: XIcon,
-      },
-      {
-        title: "Linktree",
-        url: "https://linktr.ee/erfanansari",
-        icon: LinktreeIcon,
-      },
+      // {
+      //   title: "X",
+      //   url: "https://x.com/erfanansarri",
+      //   icon: XIcon,
+      // },
+      // {
+      //   title: "Linktree",
+      //   url: "https://linktr.ee/erfanansari",
+      //   icon: LinktreeIcon,
+      // },
     ],
   },
   education: [
