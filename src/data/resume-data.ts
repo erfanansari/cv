@@ -52,7 +52,7 @@ export const RESUME_DATA = {
     {
       institution: "University of Shahrekord",
       href: "https://sku.ac.ir/",
-      degree: "Bachelor's degree, Computer Software Engineering",
+      degree: "Bachelor's degree in Computer Software Engineering",
       start: "2020",
       end: "2024",
     },
