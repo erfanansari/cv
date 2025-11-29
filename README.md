@@ -2,6 +2,8 @@ Simple web app that renders minimalist CV with print-friendly layout.
 
 Built with Next.js and shadcn/ui, deployed on Vercel.
 
+Logo designed by [Design Ideas](https://www.designideas.pics/ea-concrete-logo-design/).
+
 # Getting Started Locally
 
 1. Clone this repository to your local machine:
