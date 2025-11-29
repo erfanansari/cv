@@ -106,29 +106,33 @@ export default function Page() {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex flex-col justify-between gap-x-2 text-base sm:flex-row sm:items-center">
-                    <h3 className="inline-flex items-center gap-x-1 font-semibold leading-none sm:justify-center">
-                      {work.href ? (
-                        <a className="hover:underline" href={work.href}>
-                          {work.company}
-                        </a>
-                      ) : (
-                        <span>{work.company}</span>
-                      )}
-                      <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end ?? "Present"}
+                  <div className="flex flex-col justify-between gap-x-2 gap-y-1 text-base">
+                    <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+                      <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+                        <h3 className="font-semibold leading-none">
+                          {work.href ? (
+                            <a className="hover:underline" href={work.href}>
+                              {work.company}
+                            </a>
+                          ) : (
+                            <span>{work.company}</span>
+                          )}
+                        </h3>
+                        <div className="flex flex-wrap gap-1">
+                          {work.badges.map((badge) => (
+                            <Badge
+                              variant="secondary"
+                              className="text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
+                              key={badge}
+                            >
+                              {badge}
+                            </Badge>
+                          ))}
+                        </div>
+                      </div>
+                      <div className="text-sm tabular-nums text-gray-500">
+                        {work.start} - {work.end ?? "Present"}
+                      </div>
                     </div>
                   </div>
 
