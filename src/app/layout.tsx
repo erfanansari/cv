@@ -7,8 +7,63 @@ import React from "react";
 import { RESUME_DATA } from "@/data/resume-data";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  metadataBase: new URL("https://erfanansari.com"),
+  title: {
+    default: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+    template: `%s | ${RESUME_DATA.name}`,
+  },
   description: RESUME_DATA.summary,
+  keywords: [
+    "Erfan Ansari",
+    "Frontend Developer",
+    "Full Stack Engineer",
+    "React Developer",
+    "TypeScript Developer",
+    "Next.js Developer",
+    "Software Engineer",
+    "Web Developer",
+    "Tehran",
+    "عرفان انصاری",
+    ...RESUME_DATA.skills,
+  ],
+  authors: [{ name: RESUME_DATA.name, url: "https://erfanansari.com" }],
+  creator: RESUME_DATA.name,
+  publisher: RESUME_DATA.name,
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://erfanansari.com",
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+    description: RESUME_DATA.summary,
+    siteName: RESUME_DATA.name,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+    description: RESUME_DATA.summary,
+    creator: "@erfanansarri",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
+  manifest: "/manifest.json",
 };
 
 // If loading a variable font, you don't need to specify the font weight
