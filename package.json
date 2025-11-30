@@ -47,6 +47,13 @@
     "tailwindcss": "^3.4.0",
     "typescript": "^5.9.3"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@apollo/protobufjs",
+      "sharp",
+      "unrs-resolver"
+    ]
+  },
   "engines": {
     "node": ">=24 <25",
     "pnpm": ">=10 <11"
