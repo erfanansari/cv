@@ -1,0 +1,26 @@
+{
+  "name": "Erfan Ansari - Frontend Developer",
+  "short_name": "Erfan Ansari",
+  "description": "Frontend-focused Full Stack Engineer with 4+ years of expertise in building performant and scalable web applications using React and TypeScript.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
