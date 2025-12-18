@@ -9,10 +9,10 @@ import { RESUME_DATA } from "@/data/resume-data";
 export const metadata: Metadata = {
   metadataBase: new URL("https://erfanansari.com"),
   title: {
-    default: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+    default: `${RESUME_DATA.name}`,
     template: `%s | ${RESUME_DATA.name}`,
   },
-  description: RESUME_DATA.summary,
+  description: RESUME_DATA.about,
   keywords: [
     "Erfan Ansari",
     "Frontend Developer",
@@ -38,14 +38,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://erfanansari.com",
-    title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-    description: RESUME_DATA.summary,
+    title: `${RESUME_DATA.name}`,
+    description: RESUME_DATA.about,
     siteName: RESUME_DATA.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-    description: RESUME_DATA.summary,
+    title: `${RESUME_DATA.name}`,
+    description: RESUME_DATA.about,
     creator: "@erfanansarri",
   },
   robots: {
