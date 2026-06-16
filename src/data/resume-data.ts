@@ -3,8 +3,8 @@ import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Erfan Ansari",
   initials: "EA",
-  location: null, // "Tehran, Iran",
-  locationLink: null, // "https://www.google.com/maps/place/Tehran",
+  location: "Remote · Global",
+  locationLink: "https://www.google.com/maps/place/Remote+Work",
   about:
     "Problem-solving Frontend Engineer with a passion for crafting elegant solutions.",
   summary:
