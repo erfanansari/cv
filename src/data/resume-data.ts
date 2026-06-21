@@ -54,7 +54,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Pragmateam",
+      company: "Pragmidea LTD",
       href: "https://www.linkedin.com/company/pragmidea-ltd/",
       location: null,
       badges: ["Remote", "Full-time", "Fintech", "London · UK"],
