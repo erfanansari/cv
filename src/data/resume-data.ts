@@ -138,18 +138,18 @@ export const RESUME_DATA = {
     "Performance Optimization",
     "Agile Methodologies",
   ],
-  // projects: [
-  //   {
-  //     title: "CLI Portfolio",
-  //     techStack: ["TypeScript", "React", "Vite", "Tailwind CSS"],
-  //     description: "My personal portfolio as a CLI tool",
-  //     href: "https://cli.erfanansari.com",
-  //   },
-  //   {
-  //     title: "Personal Blog",
-  //     techStack: ["Gatsby", "React", "MD"],
-  //     description: "My personal blog where I write about tech",
-  //     href: "https://blog.erfanansari.com",
-  //   },
-  // ],
+  projects: [
+    {
+      title: "Kharji",
+      techStack: ["TypeScript", "React", "Next.js"],
+      description: "Multi-currency personal finance PWA with offline support and real-time conversion.",
+      href: "https://kharji.app",
+    },
+    {
+      title: "Signal Spectrum",
+      techStack: ["TypeScript", "React", "Next.js"],
+      description: "Fundamentals of signal processing with interactive visualizations",
+      href: "https://signal.erfanansari.com",
+    },
+  ],
 };
