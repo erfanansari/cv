@@ -59,7 +59,7 @@ export const RESUME_DATA = {
       location: null,
       badges: ["Remote", "Full-time", "Fintech", "London · UK"],
       title: "Frontend Developer",
-      start: "Nov 2022",
+      start: "2022",
       end: null,
       description: [
         "Spearheaded migration of 5 projects from Next.js Pages Router to App Router, enabling advanced SSR patterns and improved caching architecture.",
@@ -87,8 +87,8 @@ export const RESUME_DATA = {
       location: null,
       badges: ["Remote", "Full-time", "Web3", "Blockchain", "London · UK"],
       title: "Frontend Developer",
-      start: "Dec 2021",
-      end: "Nov 2022",
+      start: "2021",
+      end: "2022",
       description: [
         "Developed Web3 integration features including MetaMask wallet connectivity and blockchain tokenization functionality for decentralized application components.",
         "Automated type-safe API integration by generating TypeScript definitions from OpenAPI documentation, eliminating breaking change defects on the frontend.",
