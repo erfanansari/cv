@@ -113,34 +113,39 @@ export default function Page() {
             {RESUME_DATA.work.map((work) => {
               return (
                 <Card key={work.company}>
-                  <CardHeader>
-                    <div className="flex flex-col justify-between gap-x-2 gap-y-1 text-base">
-                      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-                        <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-                          <h3 className="font-semibold leading-none">
-                            {work.href ? (
-                              <a className="hover:underline" href={work.href}>
-                                {work.company}
-                              </a>
-                            ) : (
-                              <span>{work.company}</span>
-                            )}
-                          </h3>
-                          <div className="flex flex-wrap gap-1">
-                            {work.badges.map((badge) => (
+                  <CardHeader className="print:space-y-1">
+                    <div className="flex items-center justify-between gap-x-2 text-base">
+                      <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm">
+                        {work.href ? (
+                          <a
+                            className="hover:underline"
+                            href={work.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {work.company}
+                          </a>
+                        ) : (
+                          <span>{work.company}</span>
+                        )}
+                        <ul
+                          className="hidden list-none gap-x-1 p-0 sm:inline-flex"
+                          aria-label="Technologies used"
+                        >
+                          {work.badges.map((badge) => (
+                            <li key={badge}>
                               <Badge
                                 variant="secondary"
-                                className="text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
-                                key={badge}
+                                className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
                               >
                                 {badge}
                               </Badge>
-                            ))}
-                          </div>
-                        </div>
-                        <div className="text-sm tabular-nums text-gray-500">
-                          {work.start} - {work.end ?? "Present"}
-                        </div>
+                            </li>
+                          ))}
+                        </ul>
+                      </h3>
+                      <div className="text-sm tabular-nums text-gray-500">
+                        {work.start} - {work.end ?? "Present"}
                       </div>
                     </div>
 
@@ -148,16 +153,32 @@ export default function Page() {
                       {work.title}
                     </h4>
                   </CardHeader>
-                  <ul>
-                    {work.description.map((desc) => (
-                      <li
-                        className="mt-2 list-inside list-disc font-mono text-xs text-foreground/80 print:text-[10px]"
-                        key={desc}
+                  <CardContent>
+                    <div className="mt-2 text-pretty font-mono text-xs text-foreground/80 print:mt-1 print:text-[10px]">
+                      <ul className="list-inside list-disc">
+                        {work.description.map((desc) => (
+                          <li key={desc}>{desc}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="mt-2">
+                      <ul
+                        className="-mx-2 inline-flex list-none flex-wrap gap-1 p-0 sm:hidden"
+                        aria-label="Technologies used"
                       >
-                        {desc}
-                      </li>
-                    ))}
-                  </ul>
+                        {work.badges.map((badge) => (
+                          <li key={badge}>
+                            <Badge
+                              variant="secondary"
+                              className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
+                            >
+                              {badge}
+                            </Badge>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </CardContent>
                 </Card>
               );
             })}
