@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Problem-solving Frontend Engineer with a passion for crafting elegant solutions.",
   summary:
-    "Frontend-focused Full Stack Engineer with 4+ years of expertise in building performant and scalable web applications using React and TypeScript. Specializing in performance optimization, testing, and CI/CD. Experienced in migrating large-scale projects, technical architecture design, and remote team leadership.",
+    "Frontend-focused Full Stack Engineer with 4+ years building web applications using React and TypeScript. Specializing in performance, testing, CI/CD, large-scale migrations, and remote team leadership.",
   avatarUrl: "https://avatars.githubusercontent.com/u/64015416?v=4",
   contact: {
     email: "dev.erfanansari@gmail.com",
