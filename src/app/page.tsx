@@ -235,13 +235,17 @@ export default function Page() {
             <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
               {RESUME_DATA.projects.map((project) => {
                 return (
-                  <ProjectCard
+                  <article
                     key={project.title}
-                    title={project.title}
-                    description={project.description}
-                    tags={project.techStack}
-                    href={project.href}
-                  />
+                    className="h-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-sm print:hover:translate-y-0 print:hover:shadow-none"
+                  >
+                    <ProjectCard
+                      title={project.title}
+                      description={project.description}
+                      tags={project.techStack}
+                      href={project.href}
+                    />
+                  </article>
                 );
               })}
             </div>
