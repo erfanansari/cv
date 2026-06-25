@@ -55,7 +55,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Pragmidea LTD",
-      href: "https://www.linkedin.com/company/pragmidea-ltd/",
+      href: "https://pragmateam.dev/",
       location: null,
       badges: ["Remote", "Full-time", "Fintech", "London · UK"],
       title: "Frontend Developer",
@@ -91,7 +91,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Squad",
-      href: "https://www.linkedin.com/company/squadglobal/",
+      href: "https://squadland.io/",
       location: null,
       badges: ["Remote", "Full-time", "Web3", "Fintech", "London · UK"],
       title: "Frontend Developer",
